@@ -1,0 +1,221 @@
+body{
+    background-color: white;
+}
+.about{
+    margin-top: 140px;
+}
+.about h1{
+    font-weight: 700;
+}
+.about span{
+    color: #284D91;
+}
+.about p{
+    text-align: justify;
+    text-indent: 50px;
+    padding: 15px 10px;
+}
+.about-image{
+    margin-top: 50px;
+    
+}
+.about-image img{
+    width: 350px;
+    height: 300px;
+    margin-left: 60px;
+}
+.anchor-tag{
+    color: #284D91;
+}
+.anchor-tag:hover{
+    color: #284D91;
+}
+.about-section{
+    background-image: url(./Images/back-img.png);
+}
+.about-section h1{
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: 600;
+}
+.counter-up{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.counter-up p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.counter{
+    font-size: 80px;
+    color: #284D91;
+    font-weight: 600;
+}
+.about-second h1{
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+.about-third{
+    background-color: #284D91;
+    border-radius: 20px;
+    padding: 50px;
+    color: aliceblue;
+}
+.about-third p{
+    word-spacing: 5px;
+    text-align: justify;
+    line-height: 30px;
+}
+.about-third div{
+    font-weight: bold;
+    font-size: 24px;
+}
+.about-third h1{
+    font-weight: 800;
+}
+            /* Hover image content Start  */
+.box{
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgb(231, 228, 228);
+}
+.team-heading{
+    margin: 45px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.box h2{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 20px;
+    transition: all 0.4s;
+    margin: 10px;
+}
+.box:hover img{
+    transform: scale(0);
+    transition-delay: 0.2s;
+}
+.box .box-content{
+    background-color: #284D91;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    transform: scale(0) rotate(-180deg);
+    opacity: 0;
+    transition: all 0.4s;
+}
+.box:hover .box-content{
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    border-radius: 20px;
+    transition-delay: 0.2s;
+}
+            /* Hover image content End  */
+.client-s{
+    text-align: center;
+    margin: 40px 0px;
+}
+.client-s h1{
+    font-weight: 700;
+}
+.slick-slide{
+    padding: 5px;
+}
+.slick-next:before{
+    color: #284D91 !important;
+    font-size: -webkit-xxx-large !important;
+}
+.slick-prev:before {
+    color: #284D91 !important;
+    font-size: -webkit-xxx-large !important;
+    margin-left: -25px;
+}
+.images-content{
+    background-color: #284D91;
+    padding: 20px;
+    border-radius: 20px !important;
+    box-shadow: 0 14px 40px -5px #284D91;
+}
+.testimonial{
+    border-radius: 20px;
+}
+.testimonial p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.slick-dots{
+    /* display: none !important; */
+}
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    .about-image img{
+        margin-left: 0px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .about{
+        margin-top: 50px;
+    }
+    .about-image {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:576px) {
+    .about{
+        margin-top: 50px;
+    }
+    .about-image {
+        margin-top: 20px;
+    }
+    .about-image img{
+        margin-left: 4px;
+        width: 300px;
+        height: 300px;
+    }
+    .testimonial p{
+        font-size: 13px;
+        text-indent: 5px;
+    }
+    .testimonial h2{
+        font-size: 20px;
+    }
+    .images-content img{
+        width: 80px;
+        height: 80px;
+    }
+    .slick-next:before{
+        /* color: #284D91 !important;
+        font-size: 20px !important;
+        margin-left: -5px; */
+        display: none;
+    }
+    .slick-prev:before {
+        /* color: #284D91 !important;
+        font-size: 20px !important;
+        margin-left: 7px;
+         */
+         display: none;
+    }
+}

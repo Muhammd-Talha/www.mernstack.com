@@ -1,0 +1,254 @@
+body{
+  font-family: Ubuntu,Helvetica,Arial,sans-serif;
+  background-color: rgb(248, 242, 235);
+}
+.homeheader {
+  background-image: url("./Images/banner-bg.png");
+  background-repeat: no-repeat;
+}
+
+.homesection h1 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.homesection p {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.homesection h1 span {
+  color: #284D91;
+}
+
+.homesection h1 span::after {
+  content: "";
+  display: inline-block;
+  height: 60px;
+  border: 7px solid #284D91;
+}
+
+.homesection .App-logo {
+  height: 320px;
+  width: 320px;
+}
+
+.homesection {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card-section{
+  margin-top: 50px;
+}
+.card-section h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.image-icon{
+  height: 250px;
+  width: 250px;
+  color: #60749b;
+  transition: 0.5s ease-in;
+}
+.height-fixed{
+  background-color: rgb(239, 243, 242);
+  border-radius: 25px;
+}
+.height-fixed:hover{
+  background-color: white;
+  box-shadow: 1px 1px 2px black, 0 0 25px #284D91, 0 0 5px darkblue; 
+}
+.card-img-overlay h2{
+  text-align: center;
+  padding-top: 25px;
+  color: black;
+  font-weight: 700;
+}
+.card-img-overlay p{
+  color: black;
+  padding: 15px;
+  text-indent: 20px;
+  text-align: justify;
+  opacity: .8;
+  font-weight: 600;
+}
+.images-card{
+  text-align: center;
+  padding-top: 25px;
+}
+.height-fixed{
+    height: 300px;
+}
+.col:hover .image-icon{
+  height: 260px;
+  width: 260px;
+  transition: 1s;
+  overflow: hidden;
+  color: #284D91;
+}
+.section-s{
+  margin: auto;
+}
+.section-s a{
+  font-size: 22px;
+  font-weight: 600;
+  color: #284D91;
+  margin: 30px 0px 20px 0px;
+}
+.table-content{
+  background-color: white;
+  border-radius: 20px;
+}
+.table-icon{
+  background-color: rgba(58,179,87,.1);
+  width: 180px;
+  height: 35px;
+  color: #3ab357;
+  margin-top: 10px;
+}
+.table-icon-one{
+  background-color: rgba(255,0,0,.1);
+  width: 180px;
+  height: 35px;
+  margin-top: 10px;
+  color: red;
+}
+.table tr{
+  height: 70px;
+}
+.table th{
+  font-size: 20px;
+}
+.Outcomes{
+  margin: 30px 0px;
+}
+.Outcomes h1, p{
+  text-align: center;
+}
+.logos{
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 40px 0px;
+  background-color: white;
+  white-space: nowrap;
+  position: relative;
+}
+.logos-slide{
+  
+  animation: 35s slide linear infinite;
+  display: inline-block;
+}
+.logos-slide img{
+  height: 50px;
+  margin: 0px 20px;
+}
+/* .logos:hover .logos-slide{
+  animation-play-state: paused;
+} */
+.logos::before{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100%;
+background: linear-gradient(to left, white, rgb(235, 227, 227));
+content: "";
+z-index: 2;
+}
+@keyframes slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+@media (min-width:992px) and (max-width:1299.98px) {
+  .homesection h1 {
+    font-size: 45px;
+  }
+
+  .homesection .App-logo {
+    height: 300px;
+    width: 250px;
+  }
+}
+@media (min-width:768px) and (max-width:991.98px) {
+  .homesection h1 {
+    font-size: 35px;
+  }
+
+  .homesection .App-logo {
+    height: 260px;
+    width: 210px;
+  }
+  .homesection h1 span::after {
+    height: 40px;
+  }
+  .homeheader p{
+    font-size: 20px;
+  }
+}
+@media (min-width:576px) and (max-width:767.98px){
+  .directions{
+    flex-direction: column-reverse;
+  }
+  /* .homesection h1 {
+    padding-top: 10px;
+  } */
+}
+@media screen and (max-width:567.98px) {
+  .directions{
+    flex-direction: column-reverse;
+  }
+  .homesection h1 {
+    font-size: 33px;
+    padding-top: 10px;
+  }
+
+  .homesection .App-logo {
+    height: 260px;
+    width: 210px;
+  }
+  .homesection h1 span::after {
+    height: 40px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .nav-link{
+    font-size: 15px !important;
+  }
+  .box{
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .Outcomes p{
+    display: none;
+  }
+  .logos::before{
+    width: 35px;
+  }
+  .card-section{
+    text-align: -webkit-center;
+  }
+}

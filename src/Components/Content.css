@@ -1,0 +1,44 @@
+.content-part{
+    background-color: #284D91;
+    height: 350px;
+    text-align: center;
+    padding-top: 90px;
+    color: wheat;
+}
+.content-part h1{
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.content-part label{
+    margin-bottom: 15px;
+}
+.content-part button{
+    padding: 10px 25px;
+    border: none;
+    background-color: #7996cc;
+    color: white;
+    border-radius: 20px;
+    transition: 1s;
+}
+.content-part button:hover{
+    opacity: .6;
+}
+.collase-btn{
+display: flex;
+justify-content: center;
+margin: 50px 0px;
+}
+.contentpart .card:hover{
+    box-shadow: 1px 1px 2px black, 0 0 25px #7996cc, 0 0 5px #284D91;
+}
+.card-title{
+    text-align: center;
+}
+.card-icon{
+    height: 100px;
+    width: 100px;
+    color: #284D91;
+}
+.card-body h5{
+    font-weight: bold;
+}

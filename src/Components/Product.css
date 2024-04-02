@@ -1,0 +1,149 @@
+.headers-section{
+  padding-top: 50px;
+}
+.products p{
+    text-align: left;
+}
+.products h5{
+  font-weight: 800;
+  color: #284D91;
+}
+.products h2{
+  font-weight: 800;
+  font-size: 25px;
+}
+.after-p{
+  font-size: 20px;
+}
+.after-p:hover{
+  background-color: #284D91;
+  width: 230px;
+  color: white;
+  transition: 1s;
+}
+.after-p::after{
+  content: "";
+  display: block;
+  width: 230px;
+  border: 5px solid #284D91;
+}
+.after-content{
+  margin-top: 100px;
+  padding-right: 70px;
+}
+.after-content span{
+  font-weight: 800;
+  color: #284D91;
+}
+.resources{
+  text-align: center;
+}
+.resources-icon{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #284D91;
+}
+.resources p{
+  line-height: 15px;
+}
+.fontsize{
+  font-size: 13px;
+}
+.circle {
+    width: 145px;
+    height: 145px;
+    border: 3px solid #284D91;
+    margin: 12px;
+  }
+  .align {
+    align-self: center;
+    display: grid;
+    justify-content: center;
+  }
+  .section {
+    display: grid;
+    justify-content: center;
+  }
+  .division {
+    flex-wrap: nowrap;
+  }
+  .circle {
+    overflow: hidden;
+  }
+  .top-effect {
+    transition: 1s;
+  }
+  .top-effect:hover {
+    transition: 1s;
+  }
+  .hiddens h5{
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+  }
+  .product-footer h2{
+    text-align: center;
+    padding: 30px;
+  }
+
+
+  @media screen and (max-width:991.98px) {
+    .circle {
+      width: 135px;
+      height: 150px;
+      border: 3px solid #284D91;
+      margin: 12px;
+    }
+    .after-p:hover{
+      width: 160px;
+    }
+    .products h2{
+      font-size: 20px;
+    }
+    .after-p{
+      font-size: 15px;
+    }
+    .after-p::after{
+      width: 160px;
+    }
+    .after-content{
+      padding-right: 10px;
+      margin-top: 15px;
+    }
+  }
+  @media screen and (max-width:767.98px) {
+    .division {
+      flex-wrap: nowrap;
+    }
+    .after-p:hover{
+      width: 170px;
+    }
+    .products h2{
+      font-size: 20px;
+    }
+    .after-p{
+      font-size: 15px;
+    }
+    .after-p::after{
+      width: 170px;
+    }
+  }
+  @media screen and (max-width:575.98px) {
+    .align {
+      display: flex;
+    }
+    .division {
+      flex-direction: column;
+    }
+    .section{
+      display: flex;
+    }
+    .hiddens{
+      display: none;
+    }
+    .product-footer h2{
+      font-size: 23px;
+      margin: auto;
+    }
+  }

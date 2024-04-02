@@ -1,0 +1,75 @@
+.systemexpert{
+    background-color: rgb(250, 251, 252);
+}
+.expert-headers{
+    background-color: rgb(194, 194, 248);
+}
+.expert-headers h1{
+    text-align: center;
+    padding-top: 110px;
+    font-weight: 800;
+    color: #284D91;
+}
+.expert-headers p{
+    margin: 0px 170px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.system-section h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(82 46 3/var(--tw-text-opacity));
+    opacity: .9;
+}
+.system-section p{
+    padding: 0px 140px;
+    text-align: justify;
+}
+.system-s .card{
+    border: none;
+    background-color: rgb(250, 251, 252);
+}
+.system-s h5{
+    background-color: #284D91;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 14px 40px -5px #284D91;
+}
+.system-s li{
+    list-style-type: none;
+    font-size: 13px;
+}
+.system-list-icons{
+    font-size: 35px;
+    margin-top: -3px;
+    color: #284D91;
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .expert-headers p{
+        margin: 0px 40px;
+    }
+    .system-section p{
+        padding: 0px 40px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .expert-headers p{
+        margin: 0px 20px;
+    }
+    .system-section p{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width:575.98px) {
+    .expert-headers p{
+        margin: 0px 10px;
+    }
+    .system-section p{
+        padding: 0px 10px;
+    }
+    .system-s li{
+        font-size: 11px;
+    }
+}
